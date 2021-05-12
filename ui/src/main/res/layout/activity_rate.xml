@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#000"
+        tools:context=".activity.RateActivity">
+
+    <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <View
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/white_circle"
+                android:layout_width="5dp"
+                android:layout_height="match_parent"/>
+
+        <TextView
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:text="评分趋势"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <cn.flandre.ui.view.RateView
+            android:id="@+id/rate"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:offsetX="25dp"
+            app:offsetY="30dp"
+            app:textSize="12sp"
+            app:leftTextPadding="6dp"
+            app:bottomTextPadding="6dp"
+            app:topWritePadding="40dp"
+            app:topText="综合评分估计"/>
+
+</LinearLayout>

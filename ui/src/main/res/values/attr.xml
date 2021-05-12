@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="progress">
+        <attr name="progress" format="integer" />
+        <attr name="padding" format="dimension" />
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="RateView">
+        <attr name="offsetX" format="dimension" />
+        <attr name="offsetY" format="dimension" />
+        <attr name="textSize" format="dimension" />
+        <attr name="leftTextPadding" format="dimension" />
+        <attr name="bottomTextPadding" format="dimension" />
+        <attr name="topWritePadding" format="dimension" />
+        <attr name="topText" format="string" />
+    </declare-styleable>
+</resources>
